@@ -2,6 +2,6 @@
 
 int main(int argc, char **argv)
 {
-	printf("Wow that ssadasfdzczbe cool2 /n");
+	printf("Wow that be cool /n");
 	return 0;
 }
