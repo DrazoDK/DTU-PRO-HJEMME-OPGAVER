@@ -1,4 +1,4 @@
-#import <stdio.h>
+12#import <stdio.h>
 
 int main(void)
 {
