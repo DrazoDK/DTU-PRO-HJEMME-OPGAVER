@@ -7,9 +7,6 @@ int main(void)
   printf("Enter fraction in the form a/b+c/d: ");
   scanf("%d/%d+%d/%d", &num1, &denom1, &num2, &denom2);
   
-  //printf("Enter second fraction: ");
-  //1/2scanf("%d/%d", &num2, &denom2);
-  
   result_num = num1 * denom2 + num2 * denom1;
   result_denom = denom1 * denom2;
   
