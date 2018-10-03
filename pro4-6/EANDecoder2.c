@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int n[13], sum1 = 0, sum2 = 0, nSize, test;
+    int n[13], sum1 = 0, sum2 = 0, nSize;
 
     nSize = sizeof(n) / sizeof(n[0]);
 
