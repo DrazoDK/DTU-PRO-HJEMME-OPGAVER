@@ -12,9 +12,8 @@ int main(void)
 
 
     odd = 3;
-        for (square = 1, int i = 1; i <= n; odd += 2, ++i){
+        for (square = 1, int i = 1; i <= n; odd += 2, i++){
             printf("%10d%10d\n", i, square);
-            
             square += odd;
         }
     return 0;
