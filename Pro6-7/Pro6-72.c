@@ -1,6 +1,6 @@
 /* Prints a table of squares using an odd method */
 
-#import <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
