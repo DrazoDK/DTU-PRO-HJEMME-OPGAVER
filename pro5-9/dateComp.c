@@ -17,8 +17,8 @@ int main(void)
     if(segEq == 3){res = 2;}
 
     switch(res){
-        case 0: printf("The date: %d/%d/%d is before %d/%d/%ds\n", date2[0], date2[1], date2[2], date1[0], date1[1], date1[2]); break;
-        case 1: printf("The date: %d/%d/%d is before %d/%d/%dr\n", date1[0], date1[1], date1[2], date2[0], date2[1], date2[2]); break;
+        case 0: printf("The date: %d/%d/%d is before %d/%d/%d\n", date2[0], date2[1], date2[2], date1[0], date1[1], date1[2]); break;
+        case 1: printf("The date: %d/%d/%d is before %d/%d/%d\n", date1[0], date1[1], date1[2], date2[0], date2[1], date2[2]); break;
         case 2: printf("The dates: %d/%d/%d and %d/%d/%d are the same\n", date1[0], date1[1], date1[2], date2[0], date2[1], date2[2]); break;
         default:    printf("Illegal date\n"); break;
     }
