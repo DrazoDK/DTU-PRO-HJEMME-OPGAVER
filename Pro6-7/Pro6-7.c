@@ -1,5 +1,3 @@
-/* Prints a table of squares using an odd methid */
-
 #import <stdio.h>
 
 int main(void)
@@ -19,3 +17,6 @@ int main(void)
         }
     return 0;
     }
+
+
+
